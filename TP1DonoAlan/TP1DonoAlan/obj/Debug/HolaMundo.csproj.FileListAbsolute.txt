@@ -1,0 +1,8 @@
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\bin\Debug\TP1DonoAlan.exe.config
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\bin\Debug\TP1DonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\bin\Debug\TP1DonoAlan.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\obj\Debug\HolaMundo.csproj.AssemblyReference.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\obj\Debug\HolaMundo.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\obj\Debug\HolaMundo.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\obj\Debug\TP1DonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\TP1DonoAlan\obj\Debug\TP1DonoAlan.pdb

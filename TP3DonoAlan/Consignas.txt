@@ -1,0 +1,23 @@
+Consignas:
+Proponemos que el alumno modele la clase Persona con las siguientes condiciones:
+
+Atributos: nombre, e-mail, sueldo, sexo, peso y altura. Pensar qué modificador de visibilidad es el más adecuado junto con el tipo de cada uno ya que no se debe acceder a sus atributos directamente.
+
+Implementar un constructor que defina todos los atributos por parámetro salvo el e-mail que se especifica luego.
+Métodos  a implementar:
+◦          Todos los métodos Getters, No implementar Setters.
+
+◦          CrearEmail():  Crea el e-mail de la persona a partir del nombre + @superempresa.com. Este método es privado y se llama por medio del constructor.
+
+
+En la función Main de la clase Program.cs hacer lo siguiente:
+
+
+1. Pedir por teclado nombre, sueldo, sexo, peso y altura y crear 1 objeto persona.
+2. Mostrar la información completa de la persona en este formato:
+-Nombre: Juan
+-Email: Juan@superempresa.com
+-sueldo: 30000 ARS
+-sexo: Masculino
+-peso:  70 kg(B)
+-altura: 1,7 m

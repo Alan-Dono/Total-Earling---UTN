@@ -1,0 +1,8 @@
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\bin\Debug\ChauMundo.exe.config
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\bin\Debug\ChauMundo.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\bin\Debug\ChauMundo.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\obj\Debug\ChauMundo.csproj.AssemblyReference.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\obj\Debug\ChauMundo.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\obj\Debug\ChauMundo.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\obj\Debug\ChauMundo.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP1DonoAlan\ChauMundo\obj\Debug\ChauMundo.pdb

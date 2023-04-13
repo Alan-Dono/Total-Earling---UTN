@@ -1,0 +1,8 @@
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\bin\Debug\TP3DonoAlan.exe.config
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\bin\Debug\TP3DonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\bin\Debug\TP3DonoAlan.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\obj\Debug\TP3DonoAlan.csproj.AssemblyReference.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\obj\Debug\TP3DonoAlan.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\obj\Debug\TP3DonoAlan.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\obj\Debug\TP3DonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP3DonoAlan\TP3DonoAlan\obj\Debug\TP3DonoAlan.pdb
