@@ -1,0 +1,11 @@
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\bin\Debug\TP6DonoAlan.exe.config
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\bin\Debug\TP6DonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\bin\Debug\TP6DonoAlan.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.csproj.AssemblyReference.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.Form1.resources
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.Properties.Resources.resources
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.csproj.GenerateResource.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TP6DonoAlan\TP6DonoAlan\obj\Debug\TP6DonoAlan.pdb
