@@ -31,22 +31,22 @@
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.lblName = new System.Windows.Forms.Label();
-            this.lblAutor = new System.Windows.Forms.Label();
-            this.lblGenero = new System.Windows.Forms.Label();
-            this.lblPaguina = new System.Windows.Forms.Label();
-            this.lblImportado = new System.Windows.Forms.Label();
-            this.lblPrecio = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.txtAutor = new System.Windows.Forms.TextBox();
-            this.cbGenero = new System.Windows.Forms.ComboBox();
-            this.txtPaginas = new System.Windows.Forms.TextBox();
-            this.chkBoxSi = new System.Windows.Forms.CheckBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
-            this.txtLista = new System.Windows.Forms.TextBox();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.chkBoxSi = new System.Windows.Forms.CheckBox();
+            this.txtPaginas = new System.Windows.Forms.TextBox();
+            this.cbGenero = new System.Windows.Forms.ComboBox();
+            this.txtAutor = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblPrecio = new System.Windows.Forms.Label();
+            this.lblImportado = new System.Windows.Forms.Label();
+            this.lblPaguina = new System.Windows.Forms.Label();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.lblAutor = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.txtDatos = new System.Windows.Forms.TextBox();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -99,81 +99,89 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingresar Libro";
             // 
-            // tabPage2
+            // btnInsert
             // 
-            this.tabPage2.Controls.Add(this.txtLista);
-            this.tabPage2.Location = new System.Drawing.Point(4, 34);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(753, 590);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Lista";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsert.Location = new System.Drawing.Point(427, 486);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(132, 37);
+            this.btnInsert.TabIndex = 12;
+            this.btnInsert.Text = "Ingresar";
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
-            // lblName
+            // btnCancel
             // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(75, 62);
-            this.lblName.Margin = new System.Windows.Forms.Padding(10);
-            this.lblName.Name = "lblName";
-            this.lblName.Padding = new System.Windows.Forms.Padding(5);
-            this.lblName.Size = new System.Drawing.Size(111, 39);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "Nombre";
-            this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(168, 486);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(132, 37);
+            this.btnCancel.TabIndex = 11;
+            this.btnCancel.Text = "Cancelar";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // lblAutor
+            // txtPrecio
             // 
-            this.lblAutor.AutoSize = true;
-            this.lblAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutor.Location = new System.Drawing.Point(108, 120);
-            this.lblAutor.Margin = new System.Windows.Forms.Padding(10);
-            this.lblAutor.Name = "lblAutor";
-            this.lblAutor.Padding = new System.Windows.Forms.Padding(5);
-            this.lblAutor.Size = new System.Drawing.Size(79, 39);
-            this.lblAutor.TabIndex = 1;
-            this.lblAutor.Text = "Autor";
-            this.lblAutor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrecio.Location = new System.Drawing.Point(205, 361);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(119, 34);
+            this.txtPrecio.TabIndex = 10;
             // 
-            // lblGenero
+            // chkBoxSi
             // 
-            this.lblGenero.AutoSize = true;
-            this.lblGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenero.Location = new System.Drawing.Point(82, 180);
-            this.lblGenero.Margin = new System.Windows.Forms.Padding(10);
-            this.lblGenero.Name = "lblGenero";
-            this.lblGenero.Padding = new System.Windows.Forms.Padding(5);
-            this.lblGenero.Size = new System.Drawing.Size(104, 39);
-            this.lblGenero.TabIndex = 2;
-            this.lblGenero.Text = "Genero";
-            this.lblGenero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkBoxSi.AutoSize = true;
+            this.chkBoxSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBoxSi.Location = new System.Drawing.Point(205, 304);
+            this.chkBoxSi.Name = "chkBoxSi";
+            this.chkBoxSi.Size = new System.Drawing.Size(57, 33);
+            this.chkBoxSi.TabIndex = 9;
+            this.chkBoxSi.Text = "Si";
+            this.chkBoxSi.UseVisualStyleBackColor = true;
             // 
-            // lblPaguina
+            // txtPaginas
             // 
-            this.lblPaguina.AutoSize = true;
-            this.lblPaguina.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPaguina.Location = new System.Drawing.Point(81, 241);
-            this.lblPaguina.Margin = new System.Windows.Forms.Padding(10);
-            this.lblPaguina.Name = "lblPaguina";
-            this.lblPaguina.Padding = new System.Windows.Forms.Padding(5);
-            this.lblPaguina.Size = new System.Drawing.Size(104, 39);
-            this.lblPaguina.TabIndex = 2;
-            this.lblPaguina.Text = "Pagina ";
-            this.lblPaguina.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtPaginas.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPaginas.Location = new System.Drawing.Point(205, 243);
+            this.txtPaginas.Name = "txtPaginas";
+            this.txtPaginas.Size = new System.Drawing.Size(119, 34);
+            this.txtPaginas.TabIndex = 8;
             // 
-            // lblImportado
+            // cbGenero
             // 
-            this.lblImportado.AutoSize = true;
-            this.lblImportado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblImportado.Location = new System.Drawing.Point(59, 300);
-            this.lblImportado.Margin = new System.Windows.Forms.Padding(10);
-            this.lblImportado.Name = "lblImportado";
-            this.lblImportado.Padding = new System.Windows.Forms.Padding(5);
-            this.lblImportado.Size = new System.Drawing.Size(132, 39);
-            this.lblImportado.TabIndex = 3;
-            this.lblImportado.Text = "Importado";
-            this.lblImportado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cbGenero.AllowDrop = true;
+            this.cbGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbGenero.FormattingEnabled = true;
+            this.cbGenero.Items.AddRange(new object[] {
+            "Express",
+            "Javascript ",
+            "MongoDb",
+            "NodeJs",
+            "ReactJs"});
+            this.cbGenero.Location = new System.Drawing.Point(205, 182);
+            this.cbGenero.Name = "cbGenero";
+            this.cbGenero.Size = new System.Drawing.Size(260, 37);
+            this.cbGenero.Sorted = true;
+            this.cbGenero.TabIndex = 7;
+            this.cbGenero.Tag = "";
+            this.cbGenero.Text = " Seleccione";
+            // 
+            // txtAutor
+            // 
+            this.txtAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAutor.Location = new System.Drawing.Point(205, 125);
+            this.txtAutor.Name = "txtAutor";
+            this.txtAutor.Size = new System.Drawing.Size(260, 34);
+            this.txtAutor.TabIndex = 6;
+            // 
+            // txtName
+            // 
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(205, 64);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(260, 34);
+            this.txtName.TabIndex = 5;
             // 
             // lblPrecio
             // 
@@ -188,85 +196,89 @@
             this.lblPrecio.Text = "Precio";
             this.lblPrecio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtName
+            // lblImportado
             // 
-            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(205, 64);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(260, 34);
-            this.txtName.TabIndex = 5;
+            this.lblImportado.AutoSize = true;
+            this.lblImportado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImportado.Location = new System.Drawing.Point(59, 300);
+            this.lblImportado.Margin = new System.Windows.Forms.Padding(10);
+            this.lblImportado.Name = "lblImportado";
+            this.lblImportado.Padding = new System.Windows.Forms.Padding(5);
+            this.lblImportado.Size = new System.Drawing.Size(132, 39);
+            this.lblImportado.TabIndex = 3;
+            this.lblImportado.Text = "Importado";
+            this.lblImportado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtAutor
+            // lblPaguina
             // 
-            this.txtAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAutor.Location = new System.Drawing.Point(205, 125);
-            this.txtAutor.Name = "txtAutor";
-            this.txtAutor.Size = new System.Drawing.Size(260, 34);
-            this.txtAutor.TabIndex = 6;
+            this.lblPaguina.AutoSize = true;
+            this.lblPaguina.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPaguina.Location = new System.Drawing.Point(81, 241);
+            this.lblPaguina.Margin = new System.Windows.Forms.Padding(10);
+            this.lblPaguina.Name = "lblPaguina";
+            this.lblPaguina.Padding = new System.Windows.Forms.Padding(5);
+            this.lblPaguina.Size = new System.Drawing.Size(104, 39);
+            this.lblPaguina.TabIndex = 2;
+            this.lblPaguina.Text = "Pagina ";
+            this.lblPaguina.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // cbGenero
+            // lblGenero
             // 
-            this.cbGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbGenero.FormattingEnabled = true;
-            this.cbGenero.Location = new System.Drawing.Point(205, 182);
-            this.cbGenero.Name = "cbGenero";
-            this.cbGenero.Size = new System.Drawing.Size(260, 37);
-            this.cbGenero.TabIndex = 7;
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGenero.Location = new System.Drawing.Point(82, 180);
+            this.lblGenero.Margin = new System.Windows.Forms.Padding(10);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Padding = new System.Windows.Forms.Padding(5);
+            this.lblGenero.Size = new System.Drawing.Size(104, 39);
+            this.lblGenero.TabIndex = 2;
+            this.lblGenero.Text = "Genero";
+            this.lblGenero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtPaginas
+            // lblAutor
             // 
-            this.txtPaginas.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPaginas.Location = new System.Drawing.Point(205, 243);
-            this.txtPaginas.Name = "txtPaginas";
-            this.txtPaginas.Size = new System.Drawing.Size(119, 34);
-            this.txtPaginas.TabIndex = 8;
+            this.lblAutor.AutoSize = true;
+            this.lblAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutor.Location = new System.Drawing.Point(108, 120);
+            this.lblAutor.Margin = new System.Windows.Forms.Padding(10);
+            this.lblAutor.Name = "lblAutor";
+            this.lblAutor.Padding = new System.Windows.Forms.Padding(5);
+            this.lblAutor.Size = new System.Drawing.Size(79, 39);
+            this.lblAutor.TabIndex = 1;
+            this.lblAutor.Text = "Autor";
+            this.lblAutor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // chkBoxSi
+            // lblName
             // 
-            this.chkBoxSi.AutoSize = true;
-            this.chkBoxSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkBoxSi.Location = new System.Drawing.Point(205, 304);
-            this.chkBoxSi.Name = "chkBoxSi";
-            this.chkBoxSi.Size = new System.Drawing.Size(57, 33);
-            this.chkBoxSi.TabIndex = 9;
-            this.chkBoxSi.Text = "Si";
-            this.chkBoxSi.UseVisualStyleBackColor = true;
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(75, 62);
+            this.lblName.Margin = new System.Windows.Forms.Padding(10);
+            this.lblName.Name = "lblName";
+            this.lblName.Padding = new System.Windows.Forms.Padding(5);
+            this.lblName.Size = new System.Drawing.Size(111, 39);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Nombre";
+            this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtPrecio
+            // tabPage2
             // 
-            this.txtPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecio.Location = new System.Drawing.Point(205, 361);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(119, 34);
-            this.txtPrecio.TabIndex = 10;
+            this.tabPage2.Controls.Add(this.txtDatos);
+            this.tabPage2.Location = new System.Drawing.Point(4, 34);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(753, 590);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Lista";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // btnCancel
+            // txtDatos
             // 
-            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(168, 486);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(132, 37);
-            this.btnCancel.TabIndex = 11;
-            this.btnCancel.Text = "Cancelar";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // btnInsert
-            // 
-            this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(427, 486);
-            this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(132, 37);
-            this.btnInsert.TabIndex = 12;
-            this.btnInsert.Text = "Ingresar";
-            this.btnInsert.UseVisualStyleBackColor = true;
-            // 
-            // txtLista
-            // 
-            this.txtLista.Location = new System.Drawing.Point(37, 82);
-            this.txtLista.Multiline = true;
-            this.txtLista.Name = "txtLista";
-            this.txtLista.Size = new System.Drawing.Size(668, 407);
-            this.txtLista.TabIndex = 0;
+            this.txtDatos.Location = new System.Drawing.Point(45, 59);
+            this.txtDatos.Multiline = true;
+            this.txtDatos.Name = "txtDatos";
+            this.txtDatos.Size = new System.Drawing.Size(657, 422);
+            this.txtDatos.TabIndex = 0;
             // 
             // Form1
             // 
@@ -306,7 +318,7 @@
         private System.Windows.Forms.TextBox txtAutor;
         private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.TextBox txtLista;
+        private System.Windows.Forms.TextBox txtDatos;
     }
 }
 
