@@ -17,8 +17,7 @@ namespace TP6DonoAlan
         LibroController controller = LibroController.GetInstance();
         public Form1()
         {
-            InitializeComponent();
-            
+            InitializeComponent(); 
         }
 
         private void btnInsert_Click(object sender, EventArgs e)
@@ -34,17 +33,16 @@ namespace TP6DonoAlan
             txtName.Text = "";
             txtPrecio.Text = "";
             txtPaginas.Text = "";
-            cbGenero.SelectedIndex = 0;
+            cbGenero.SelectedIndex = -1;
+            chkBoxSi.Checked = false;
         }
         private void mostrar()
         {
-            //txtDatos = null;
-            txtDatos.Multiline = true;
-            foreach (Libro libro in controller.getLibros())
-            {                
-                txtDatos.Text = string.Join(Environment.NewLine, controller.getLibros());
+            lboxDatos.Items.Clear();
+            foreach(var objet in controller.getLibros())
+            {
+                lboxDatos.Items.Add(objet.ToString());
             }
-
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

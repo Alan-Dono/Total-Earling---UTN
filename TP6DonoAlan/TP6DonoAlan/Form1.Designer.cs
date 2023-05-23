@@ -46,7 +46,7 @@
             this.lblAutor = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txtDatos = new System.Windows.Forms.TextBox();
+            this.lboxDatos = new System.Windows.Forms.ListBox();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -151,6 +151,7 @@
             // cbGenero
             // 
             this.cbGenero.AllowDrop = true;
+            this.cbGenero.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGenero.FormattingEnabled = true;
             this.cbGenero.Items.AddRange(new object[] {
@@ -263,7 +264,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.txtDatos);
+            this.tabPage2.Controls.Add(this.lboxDatos);
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -272,13 +273,14 @@
             this.tabPage2.Text = "Lista";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // txtDatos
+            // lboxDatos
             // 
-            this.txtDatos.Location = new System.Drawing.Point(45, 59);
-            this.txtDatos.Multiline = true;
-            this.txtDatos.Name = "txtDatos";
-            this.txtDatos.Size = new System.Drawing.Size(657, 422);
-            this.txtDatos.TabIndex = 0;
+            this.lboxDatos.FormattingEnabled = true;
+            this.lboxDatos.ItemHeight = 25;
+            this.lboxDatos.Location = new System.Drawing.Point(59, 67);
+            this.lboxDatos.Name = "lboxDatos";
+            this.lboxDatos.Size = new System.Drawing.Size(629, 404);
+            this.lboxDatos.TabIndex = 0;
             // 
             // Form1
             // 
@@ -293,7 +295,6 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -318,7 +319,7 @@
         private System.Windows.Forms.TextBox txtAutor;
         private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.TextBox txtDatos;
+        private System.Windows.Forms.ListBox lboxDatos;
     }
 }
 
