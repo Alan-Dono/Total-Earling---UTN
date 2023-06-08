@@ -1,0 +1,6 @@
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\EmpleadosEntity\bin\Debug\EmpleadosEntity.dll
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\EmpleadosEntity\bin\Debug\EmpleadosEntity.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\EmpleadosEntity\obj\Debug\EmpleadosEntity.csproj.AssemblyReference.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\EmpleadosEntity\obj\Debug\EmpleadosEntity.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\EmpleadosEntity\obj\Debug\EmpleadosEntity.dll
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\EmpleadosEntity\obj\Debug\EmpleadosEntity.pdb

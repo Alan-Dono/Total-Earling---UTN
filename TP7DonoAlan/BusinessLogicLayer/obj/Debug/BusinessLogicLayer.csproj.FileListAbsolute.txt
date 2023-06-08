@@ -1,0 +1,11 @@
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\bin\Debug\EmpleadosEntity.dll
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\bin\Debug\EmpleadosEntity.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\ALAN\Desktop\Proyectos UTN\TP7DonoAlan\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
