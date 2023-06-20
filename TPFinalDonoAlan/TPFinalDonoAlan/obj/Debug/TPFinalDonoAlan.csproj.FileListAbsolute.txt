@@ -1,0 +1,10 @@
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\obj\Debug\TPFinalDonoAlan.csproj.AssemblyReference.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\obj\Debug\TPFinalDonoAlan.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\obj\Debug\TPFinalDonoAlan.View.FrmUIDatos.resources
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\obj\Debug\TPFinalDonoAlan.csproj.GenerateResource.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\obj\Debug\TPFinalDonoAlan.csproj.CoreCompileInputs.cache
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\bin\Debug\TPFinalDonoAlan.exe.config
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\bin\Debug\TPFinalDonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\bin\Debug\TPFinalDonoAlan.pdb
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\obj\Debug\TPFinalDonoAlan.exe
+C:\Users\ALAN\Desktop\Proyectos UTN\TPFinalDonoAlan\TPFinalDonoAlan\obj\Debug\TPFinalDonoAlan.pdb
